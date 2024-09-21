@@ -62,3 +62,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-hr {
+  height: 4px;
+  background-color: gray;
+  border: none;
+  width: 100%;
+}
+

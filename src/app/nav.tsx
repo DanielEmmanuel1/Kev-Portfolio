@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -8,8 +9,13 @@ const Navbar = () => {
         <Image src="/images/crown.png" width={40} height={30} alt="" />
       </div>
 
-      <div className="flex gap-16 items-center">
-        <p className="redhat text-[20px]">About me</p>
+      <div className="flex gap-16 items-center cursor-pointer">
+        <Link href="/">
+          <p className="redhat text-[20px]">Home</p>
+        </Link>
+        <Link href="/AboutKev">
+          <p className="redhat text-[20px]">About me</p>
+        </Link>
         <p className="redhat text-[20px]">Projects</p>
         <button className="border border-white px-6 py-3 rounded-full flex items-center gap-3 redhat text-[20px]">
           {`Let's Talk`}

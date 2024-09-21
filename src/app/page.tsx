@@ -7,7 +7,7 @@ import Footer from "./footer";
 export default function Home() {
   return (
     <main>
-      <div className="h-screen p-12 bg-[#333333]">
+      <div className="h-screen p-12 bg-[#1E1E1E]">
         <Navbar />
         <HeroSection />
       </div>

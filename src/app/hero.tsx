@@ -46,7 +46,7 @@ const HeroSection = () => {
                 <div className="w-[50px] bg-white rounded-full"></div>
               </div>
             </div>
-            <div className="bg-[#6ab0b5] w-fit rounded-t-full relative left-4">
+            <div className="bg-[#6ab0b5] w-fit rounded-t-full relative left-4 bottom-[0.18rem]">
               <Image
                 src="/images/kevimage.png"
                 width={578}

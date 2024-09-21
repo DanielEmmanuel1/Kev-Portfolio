@@ -1,0 +1,22 @@
+<svg width="773" height="792" viewBox="0 0 773 792" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="185.504" y1="106.996" x2="185.504" y2="692.004" stroke="white" stroke-opacity="0.2"/>
+<line x1="277.504" y1="106.996" x2="277.504" y2="692.004" stroke="white" stroke-opacity="0.2"/>
+<line x1="376.504" y1="106.996" x2="376.504" y2="692.004" stroke="white" stroke-opacity="0.2"/>
+<line x1="475.504" y1="106.996" x2="475.504" y2="692.004" stroke="white" stroke-opacity="0.2"/>
+<line x1="574.504" y1="106.996" x2="574.504" y2="692.004" stroke="white" stroke-opacity="0.2"/>
+<line x1="87" y1="593.5" x2="672.008" y2="593.5" stroke="white" stroke-opacity="0.2"/>
+<line x1="87" y1="501.5" x2="672.008" y2="501.5" stroke="white" stroke-opacity="0.2"/>
+<line x1="87" y1="402.5" x2="672.008" y2="402.5" stroke="white" stroke-opacity="0.2"/>
+<line x1="87" y1="303.5" x2="672.008" y2="303.5" stroke="white" stroke-opacity="0.2"/>
+<line x1="87" y1="204.5" x2="672.008" y2="204.5" stroke="white" stroke-opacity="0.2"/>
+<g filter="url(#filter0_f_132_86)">
+<rect x="150.504" y="150" width="472" height="492" stroke="#333333" stroke-width="100"/>
+</g>
+<defs>
+<filter id="filter0_f_132_86" x="0.503906" y="0" width="772" height="792" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_132_86"/>
+</filter>
+</defs>
+</svg>
