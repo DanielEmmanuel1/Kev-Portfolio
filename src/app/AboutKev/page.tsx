@@ -47,7 +47,7 @@ const AboutKev = () => {
           {/* Right Side Content */}
           <div className="w-[65%] leading-loose tracking-wide">
             <p className="text-[26px] font-light redhat">
-              Welcome to my portfolio! I'm Duche Kelvin, a freelance Visual
+              Welcome to my portfolio! I&apos;m Duche Kelvin, a freelance Visual
               Designer/UI designer with over 5 years of experience in the
               industry. I specialize in crafting captivating visuals for a
               diverse spectrum of products, including magazines, flyers, book
@@ -91,7 +91,7 @@ const AboutKev = () => {
           </p>
         </div>
 
-        {/* I'M AVAILABLE FOR Section */}
+        {/* IM AVAILABLE FOR Section */}
         <div className="mt-32">
           <div className="flex items-center gap-3">
             <Image
@@ -102,7 +102,7 @@ const AboutKev = () => {
               className="mb-8"
             />
             <p className="delirium font-medium text-[2rem] tracking-widest">
-              I'M AVAILABLE FOR
+              I&apos;M AVAILABLE FOR
             </p>
           </div>
           <p className="w-[80%] leading-[3rem] tracking-wider text-[26px] font-light redhat">
