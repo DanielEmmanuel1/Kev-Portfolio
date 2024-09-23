@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -12,8 +13,10 @@ const HeroSection = () => {
           <span className="text-[450px] delirium font-medium tracking-[1rem] z-10">
             KELVIN DUCHE
           </span>
-          <div className="absolute left-40 top-28 z-50">
-            <Image src="/images/figma.png" height={150} width={120} alt="figma" />
+          <div>
+            <Image src="/images/figma.png" className="absolute top-[20%] left-[5%] z-50" height={150} width={120} alt="figma" />
+            <Image src="/images/photoshop.svg" className="absolute right-[39%] bottom-[30%] z-50" height={150} width={120} alt="figma" />
+            <Image src="/images/illustrator.svg" className="absolute right-[10%] bottom-[60%] z-50" height={150} width={120} alt="figma" />
           </div>
         </div>
       </div>
@@ -55,14 +58,21 @@ const HeroSection = () => {
                 className="relative z-50"
               />
             </div>
-            <div className="flex items-end pl-36">
-              <Image
-                src="/images/scroll.png"
-                height={150}
-                width={150}
-                alt="scroll"
-              />
+
+            <div className="flex items-end pl-36 py-12 cursor-pointer">
+              <Link href="#Footer" className="cursor-pointer">
+                <Image
+                  src="/images/scroll.png"
+                  height={150}
+                  width={150}
+                  alt="scroll"
+                  className="animate-slow-spin cursor-pointer"
+                />
+              </Link>
+
             </div>
+
+
           </div>
         </div>
       </div>

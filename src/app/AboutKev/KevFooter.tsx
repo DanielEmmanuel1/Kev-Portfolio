@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-const Footer = () => {
+const KevFooter = () => {
     return (
-        <footer className="bg-[#ffffff11] rounded-t-full mx-32 pt-28 pb-10 mt-64">
+        <footer id="Footer" className="bg-[#ffffff11] rounded-t-full mx-32 pt-28 pb-10 mt-64">
             <div>
                 <p className="text-[200px] delirium font-medium text-center">
                     LET&apos;S CONNECT
@@ -26,7 +26,7 @@ const Footer = () => {
 
             <div className="flex mx-20 justify-between">
                 <div>
-                    <p className="text-[#ffffff57]">{`Copyright(cc) Kelvin Duche`}</p>
+                    <p className="text-[#ffffff57]">{`Designed & Developed with ❤️ by`} <span className="text-[#6AB0B5] font-semibold">KD + Deon</span> </p>
                     <p className="text-[#ffffff57]">All Right Reserved.</p>
                 </div>
                 <div className="flex">
@@ -38,4 +38,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default KevFooter;

@@ -1,4 +1,4 @@
-import Footer from "../../app/AboutKev/Footer";
+import Footer from "./KevFooter";
 import Navbar from "../nav";
 import Image from "next/image";
 

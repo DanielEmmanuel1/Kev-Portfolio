@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'bounce': 'bounce 2s infinite',
+        'slow-spin': 'spin 10s linear infinite',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

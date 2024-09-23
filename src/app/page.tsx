@@ -4,6 +4,7 @@ import About from "./about";
 import FeaturedWork from "./feature";
 import CarouselSlider from "./slider";
 import Footer from "./footer";
+import KevFooter from "./AboutKev/KevFooter";
 export default function Home() {
   return (
     <main>
@@ -16,7 +17,7 @@ export default function Home() {
       <div className="pt-[10rem]">
         <CarouselSlider />
       </div>
-      <Footer />
+      <KevFooter />
     </main>
   );
 }
