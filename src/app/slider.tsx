@@ -90,18 +90,18 @@ const CarouselSlider = () => {
   return (
     <div>
       <div>
-        <div className="text-[200px] text-center delirium relative">
+        <div className="text-[200px] text-center delirium relative mb-8">
           <p>RECOMMENDATIONS</p>
           <Image
             src="/images/icon.svg"
-            className="absolute top-[10%] right-[20%]"
+            className="absolute top-[10%] right-[10%]"
             height={80}
             width={30}
             alt="stuff"
           />
           <Image
             src="/images/icon.svg"
-            className="rotate-[180deg] absolute bottom-[10%] left-[20%]"
+            className="rotate-[180deg] absolute bottom-[10%] left-[10%]"
             height={80}
             width={30}
             alt="stuff"
@@ -150,7 +150,7 @@ const CarouselSlider = () => {
 
         <button
           onClick={handlePrevClick}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#1e1e1e] bg-opacity-70 h-[424px] text-white px-3 py-1 rounded-tr-[3rem] rounded-br-[3rem] w-[300px] border-t-2 border-r-2 border-b-2 border-y-[#6AB0B5] border-r-[#6AB0B5] border-l-none shadow-2xl shadow-[#6AB0B5]/80"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#1e1e1e] bg-opacity-70 h-[424px] text-white px-3 py-1 rounded-tr-[3rem] rounded-br-[3rem] w-[200px] border-t-2 border-r-2 border-b-2 border-y-[#6AB0B5] border-r-[#6AB0B5] border-l-none shadow-2xl shadow-[#6AB0B5]/80"
         >
           <Image
             src="/images/Group.svg"
@@ -163,7 +163,7 @@ const CarouselSlider = () => {
 
         <button
           onClick={handleNextClick}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#1e1e1e] bg-opacity-70 h-[424px] text-white px-3 py-1 rounded-l-[3rem] w-[300px] border-t-2 border-l-2 border-b-2 border-y-[#6AB0B5] border-l-[#6AB0B5] border-r-none shadow-2xl shadow-[#6AB0B5]/80"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#1e1e1e] bg-opacity-70 h-[424px] text-white px-3 py-1 rounded-l-[3rem] w-[200px] border-t-2 border-l-2 border-b-2 border-y-[#6AB0B5] border-l-[#6AB0B5] border-r-none shadow-2xl shadow-[#6AB0B5]/80"
         >
           <Image
             src="/images/Group.svg"

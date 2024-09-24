@@ -13,24 +13,24 @@ const AboutKev = () => {
           {/* Left Side Content */}
           <div className="flex flex-col px-12">
             <div className="relative px-4">
-              <p className="delirium font-medium text-[200px]">ABOUT ME</p>
+              <p className="delirium font-medium text-[150px]">ABOUT ME</p>
               <Image
                 src="/images/icon.svg"
-                className="absolute top-[3rem] left-[25.5rem]"
+                className="absolute top-[15%] right-[15%]"
                 height={60}
                 width={23}
                 alt="stuff"
               />
               <Image
                 src="/images/icon.svg"
-                className="absolute top-[13.5rem] left-[0rem] rotate-[180deg]"
+                className="absolute top-[70%] left-[0rem] rotate-[180deg]"
                 height={60}
                 width={23}
                 alt="stuff"
               />
             </div>
             {/* Profile Image Section */}
-            <div>
+            <div className="mt-4">
               <div className="flex gap-16 my-auto">
                 <div className="bg-[#6ab0b5] w-fit rounded-t-full relative bottom-[4rem] left-[-2rem]">
                   <Image
@@ -46,7 +46,7 @@ const AboutKev = () => {
           </div>
           {/* Right Side Content */}
           <div className="w-[65%] leading-loose tracking-wide">
-            <p className="text-[26px] font-light redhat">
+            <p className="text-[20px] font-light redhat">
               Welcome to my portfolio! I&apos;m Duche Kelvin, a freelance Visual
               Designer/UI designer with over 5 years of experience in the
               industry. I specialize in crafting captivating visuals for a
