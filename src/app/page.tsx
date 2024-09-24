@@ -7,8 +7,8 @@ import Footer from "./footer";
 import KevFooter from "./AboutKev/KevFooter";
 export default function Home() {
   return (
-    <main>
-      <div className="h-screen p-12 bg-[#1E1E1E]">
+    <main className="bg-[#1E1E1E]">
+      <div className="p-12">
         <Navbar />
         <HeroSection />
       </div>
