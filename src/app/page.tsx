@@ -8,7 +8,7 @@ import KevFooter from "./AboutKev/KevFooter";
 export default function Home() {
   return (
     <main className="bg-[#1E1E1E]">
-      <div className="p-12">
+      <div className="p-12 bg-[url('/images/hero-bg.svg')] bg-no-repeat bg-cover bg-center">
         <Navbar />
         <HeroSection />
       </div>

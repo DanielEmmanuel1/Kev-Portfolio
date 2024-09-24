@@ -89,32 +89,33 @@ const CarouselSlider = () => {
 
   return (
     <div>
-      <div className="relative">
-        <p className="text-[200px] text-center delirium">RECOMMENDATIONS</p>
-        <Image
-          src="/images/icon.svg"
-          className="top-14 absolute right-[27.5rem]"
-          height={60}
-          width={23}
-          alt="stuff"
-        />
-        <Image
-          src="/images/icon.svg"
-          className="bottom-[4rem] absolute left-[27.5rem] rotate-[180deg]"
-          height={60}
-          width={23}
-          alt="stuff"
-        />
+      <div>
+        <div className="text-[200px] text-center delirium relative">
+          <p>RECOMMENDATIONS</p>
+          <Image
+            src="/images/icon.svg"
+            className="absolute top-[10%] right-[20%]"
+            height={80}
+            width={30}
+            alt="stuff"
+          />
+          <Image
+            src="/images/icon.svg"
+            className="rotate-[180deg] absolute bottom-[10%] left-[20%]"
+            height={80}
+            width={30}
+            alt="stuff"
+          />
+        </div>
       </div>
       <div className="relative">
-        <div className={`relative w-full max-w-[850px] h-[550px] mx-auto bg-[#0B0B0B] border-4 border-[#B0B300] rounded-[3rem] transition-transform duration-300 ease-in-out ${
-            transitioning
-              ? direction === "left"
-                ? "translate-x-full" // Previous slide goes out to the right
-                : "-translate-x-full" // Previous slide goes out to the left
-              : "translate-x-0" // No transition
+        <div className={`relative w-full max-w-[850px] h-[550px] mx-auto bg-[#0B0B0B] border-4 border-[#B0B300] rounded-[3rem] transition-transform duration-300 ease-in-out ${transitioning
+          ? direction === "left"
+            ? "translate-x-full" // Previous slide goes out to the right
+            : "-translate-x-full" // Previous slide goes out to the left
+          : "translate-x-0" // No transition
           }`}>
-          
+
           <div className={`overflow-hidden h-full flex p-8 relative transition-opacity duration-300 ${transitioning ? 'opacity-0' : 'opacity-100'}`}>
             <div className="absolute top-0 flex flex-col items-start left-[4.5rem] max-w-[35rem] mt-14 h-fit">
               <div className="flex items-center p-4 mb-10">

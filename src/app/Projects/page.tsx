@@ -14,22 +14,26 @@ const Projects = () => {
 
 
                 <div className="pt-20">
-                    <div className="flex justify-center relative">
-                        <p className="text-[200px] delirium">PROJECTS</p>
-                        <Image
-                            src="/images/icon.svg"
-                            className="absolute right-[37%] top-[18%]"
-                            height={60}
-                            width={23}
-                            alt="stuff"
-                        />
-                        <Image
-                            src="/images/icon.svg"
-                            className="absolute rotate-[180deg] left-[37%] bottom-[20%]"
-                            height={60}
-                            width={23}
-                            alt="stuff"
-                        />
+                    <div className="flex justify-center">
+                        <div className="text-[200px] delirium relative">
+                            <p>PROJECTS</p>
+
+                            <Image
+                                src="/images/icon.svg"
+                                className="absolute top-[18%] right-[-1rem]"
+                                height={80}
+                                width={30}
+                                alt="stuff"
+                            />
+                            <Image
+                                src="/images/icon.svg"
+                                className="absolute rotate-[180deg] left-[-1rem] bottom-[20%]"
+                                height={80}
+                                width={30}
+                                alt="stuff"
+                            />
+                        </div>
+
                     </div>
                     <div className="flex flex-col gap-20">
                         <NewFeature />
