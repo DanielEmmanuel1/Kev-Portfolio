@@ -49,23 +49,23 @@ const HeroSection = () => {
         <div>
           <Image
             src="/images/figma.png"
-            className="absolute top-[20%] left-[25%] z-40"
+            className="absolute top-[20%] left-[10%] z-40"
             height={150}
-            width={80}
+            width={120}
             alt="figma"
           />
           <Image
             src="/images/photoshop.svg"
             className="absolute right-[32%] bottom-[30%] z-40"
             height={150}
-            width={80}
+            width={120}
             alt="photoshop"
           />
           <Image
             src="/images/illustrator.svg"
-            className="absolute right-[25%] top-[20%] z-40"
+            className="absolute right-[15%] top-[20%] z-40"
             height={150}
-            width={80}
+            width={120}
             alt="illustrator"
           />
         </div>
