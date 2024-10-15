@@ -8,11 +8,9 @@ const Projects = () => {
     return (
         <>
             <main className="bg-[#1e1e1e]">
-                <div className="px-12 pt-12">
+                <div className="px-12">
                     <Navbar />
                 </div>
-
-
                 <div className="pt-20">
                     <div className="flex justify-center">
                         <div className="text-[200px] delirium relative">
@@ -20,7 +18,7 @@ const Projects = () => {
 
                             <Image
                                 src="/images/icon.svg"
-                                className="absolute top-[18%] right-[-1rem]"
+                                className="absolute top-[17%] right-[-1rem]"
                                 height={80}
                                 width={30}
                                 alt="stuff"
@@ -35,7 +33,7 @@ const Projects = () => {
                         </div>
 
                     </div>
-                    <div className="flex flex-col gap-20">
+                    <div className="flex flex-col gap-20 px-12">
                         <NewFeature />
                         <SecondFeature />
                     </div>

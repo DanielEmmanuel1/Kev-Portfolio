@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const AboutKev = () => {
   return (
-      <main className="flex flex-col min-h-screen px-12 pt-12 bg-[#1e1e1e]">
-        <Navbar />
+    <main className="flex flex-col min-h-screen px-12 bg-[#1e1e1e]">
+      <Navbar />
 
       {/* Page Content */}
       <div className="flex-grow">
@@ -16,14 +16,14 @@ const AboutKev = () => {
               <p className="delirium font-medium text-[150px]">ABOUT ME</p>
               <Image
                 src="/images/icon.svg"
-                className="absolute top-[15%] right-[15%]"
+                className="absolute top-[15%] xl:right-[30%] lg:right-[17%]"
                 height={60}
                 width={23}
                 alt="stuff"
               />
               <Image
                 src="/images/icon.svg"
-                className="absolute top-[70%] left-[0rem] rotate-[180deg]"
+                className="absolute top-[70%] right-[95%] rotate-[180deg]"
                 height={60}
                 width={23}
                 alt="stuff"
@@ -46,7 +46,7 @@ const AboutKev = () => {
           </div>
           {/* Right Side Content */}
           <div className="w-[65%] leading-loose tracking-wide">
-            <p className="text-[20px] font-light redhat">
+            <p className="xl:text-[20px] lg:text-[15px] font-light redhat">
               Welcome to my portfolio! I&apos;m Duche Kelvin, a freelance Visual
               Designer/UI designer with over 5 years of experience in the
               industry. I specialize in crafting captivating visuals for a
@@ -64,7 +64,7 @@ const AboutKev = () => {
           <p className="delirium font-medium text-[2rem] tracking-wide bg-[#fbff0077] w-fit px-6 rounded-full mb-10">
             MY JOURNEY
           </p>
-          <p className="w-[80%] leading-[3rem] tracking-wider text-[26px] font-light redhat">
+          <p className="w-[80%] leading-[3rem] tracking-wider xl:text-[26px] lg:text-[18px] font-light redhat">
             I hold a degree in Computer Science from the esteemed University of
             Nigeria Nsukka. This unique blend of technical knowledge and
             creative prowess sets me apart in the world of design. Over the
@@ -80,7 +80,7 @@ const AboutKev = () => {
           <p className="delirium font-medium text-[2rem] tracking-wide bg-[#6ab0b597] w-fit px-6 rounded-full mb-10">
             DESIGN PHILOSOPHY
           </p>
-          <p className="w-[80%] leading-[3rem] tracking-wider text-[26px] font-light redhat">
+          <p className="w-[80%] leading-[3rem] tracking-wider xl:text-[26px] lg:text-[18px] font-light redhat">
             My design philosophy centers on the belief that exceptional design
             should not only be visually appealing but also serve as a powerful
             means of conveying the intended message and purpose effectively. I
@@ -105,7 +105,7 @@ const AboutKev = () => {
               I&apos;M AVAILABLE FOR
             </p>
           </div>
-          <p className="w-[80%] leading-[3rem] tracking-wider text-[26px] font-light redhat">
+          <p className="w-[80%] leading-[3rem] tracking-wider xl:text-[26px] lg:text-[18px] font-light redhat">
             My design philosophy centers on the belief that exceptional design
             should not only be visually appealing but also serve as a powerful
             means of conveying the intended message and purpose effectively.
@@ -136,7 +136,7 @@ const AboutKev = () => {
             </div>
           </div>
           <div>
-            <button className="flex items-center redhat text-[15px] px-4 gap-3 py-1 bg-[#01ff276f] border-2 border-[#17b92f] rounded-full">
+            <button className="flex items-center redhat xl:text-[15px]  lg:text-[10px] px-4 gap-3 py-1 bg-[#01ff276f] border-2 border-[#17b92f] rounded-full">
               Show Credentials
               <Image
                 src="/images/arrrow.svg"
@@ -166,7 +166,7 @@ const AboutKev = () => {
             </div>
           </div>
           <div>
-            <button className="flex items-center redhat text-[15px] px-4 gap-3 py-1 bg-[#01ff276f] border-2 border-[#17b92f] rounded-full">
+            <button className="flex items-center redhat xl:text-[15px]  lg:text-[10px] px-4 gap-3 py-1 bg-[#01ff276f] border-2 border-[#17b92f] rounded-full">
               Show Credentials
               <Image
                 src="/images/arrrow.svg"

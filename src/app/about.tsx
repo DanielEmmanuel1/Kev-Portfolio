@@ -3,24 +3,25 @@ import Head from "next/head";
 
 const About = () => {
   return (
-    <div className="bg-[#C8CDCE] flex items-center text-black py-16 px-8">
+    <div className="bg-[#C8CDCE] flex items-center text-black py-16">
       <div className="basis-[90%]">
         <div className="">
           <Image
             src="/images/right-arrow-black.svg"
-            width={200}
+            width={500}
             height={200}
             alt="blackarrow"
+            className="xl:w-[500px] lg:w-[300px]"
           />
         </div>
-        <p className="text-[100px] delirium tracking-wide">ABOUT ME</p>
+        <p className="xl:text-[200px] lg:text-[100px] delirium tracking-wide pl-20">ABOUT ME</p>
       </div>
 
       <div>
-        <p className="text-[160px] delirium leading-[10rem]">
+        <p className="xl:text-[160px] lg:text-[100px] delirium leading-[10rem]">
           5 YEARS EXPERIENCE
         </p>
-        <p className="w-[664px] redhat text-[20px]">
+        <p className="xl:w-[664px] redhat xl:text-[20px] lg:text-[15px]">
           With over 5 years of experience in brand and UI design, I bring ideas
           to life through compelling visuals and intuitive interfaces. My
           passion lies in creating designs that not only look great but also
@@ -29,7 +30,7 @@ const About = () => {
 
         <div>
           <p className="delirium text-[50px]">KEY SKILLS</p>
-          <div className="flex justify-between">
+          <div className="flex gap-8">
             <div>
               <div className="flex items-center gap-2 border-b border-gray-500 pr-24 py-4">
                 <div className="w-3 h-3 bg-[#6AB0B5] rounded-full"></div>

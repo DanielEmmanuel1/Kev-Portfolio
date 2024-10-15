@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between h-[20vh]">
       <div className="flex gap-3 items-center">
         <p className="text-[35px] font-medium delirium tracking-wider">DESIGN KING</p>
         <Image src="/images/crown.png" width={40} height={30} alt="" />
