@@ -21,7 +21,7 @@ const HeroSection = () => {
               className="xl:w-[620px] lg:w-[500px]"
             />
           </div>
-          <div className="absolute xl:h-[80%] lg:h-[100%] rounded-t-full left-1/2 transform -translate-x-1/2  z-10 bg-[#6ab0b5] xl:top-[37.8%] lg:top-[74.5%] md:w-[50%]">
+          <div className="absolute xl:h-[70%] lg:h-[100%] rounded-t-full left-1/2 transform -translate-x-1/2  z-10 bg-[#6ab0b5] xl:top-[37.8%] lg:top-[74.5%] md:w-[50%]">
           {/* This is the blue background */}
           </div>
         </div>
