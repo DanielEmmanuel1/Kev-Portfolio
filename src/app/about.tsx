@@ -3,7 +3,7 @@ import Head from "next/head";
 
 const About = () => {
   return (
-    <div className="bg-[#C8CDCE] flex items-center text-black py-16">
+    <div className="bg-[#C8CDCE] flex items-center text-black py-16 px-12">
       <div className="basis-[90%]">
         <div className="">
           <Image
