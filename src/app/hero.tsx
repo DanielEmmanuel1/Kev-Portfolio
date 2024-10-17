@@ -4,7 +4,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <div>
-      <div className="relative">
+      <div className="relative mt-[-5%]">
         {/* Kelvin Duche text with high z-index */}
         <div className="xl:text-[28rem] lg:text-[15rem] delirium font-medium tracking-[1.975rem] text-center relative z-30">
           KELVIN DUCHE
