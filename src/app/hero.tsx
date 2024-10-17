@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="relative">
           <div className="mt-[-5%]">
             <p className="xl:text-[28rem] lg:text-[15rem] delirium font-medium tracking-[1rem] text-center z-30">KELVIN DUCHE</p>
-            <p className="border border-white rounded-full text-sm w-fit px-6 py-3 absolute top-[1.5rem] lg:right-[5%] xl:right-[7%] z-20">
+            <p className="border border-white rounded-full text-sm w-fit px-6 py-3 absolute top-[1.5rem] lg:right-[5%]  xl:top-[15%] xl:right-[7%] z-20">
               DESIGNING THE FUTURE
             </p>
           </div>
