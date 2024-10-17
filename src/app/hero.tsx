@@ -24,12 +24,12 @@ const HeroSection = () => {
 
         <div>
           {/* Blue background (lower z-index than text) */}
-          <div className="absolute xl:h-[80%] lg:h-[100%] rounded-t-full left-1/2 transform -translate-x-1/2  z-10 bg-[#6ab0b5] xl:top-[30%] lg:top-[74.5%] md:w-[50%]">
+          <div className="absolute xl:h-[80%] lg:h-[100%] rounded-t-full left-1/2 transform -translate-x-1/2  z-10 bg-[#6ab0b5] xl:top-[20%] lg:top-[74.5%] md:w-[50%]">
             {/* This is the blue background */}
           </div>
 
           {/* Kev Image with the highest z-index */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 z-50 xl:top-[29.5%] lg:top-[74.5%]">
+          <div className="absolute left-1/2 transform -translate-x-1/2 z-50 xl:top-[19.5%] lg:top-[74.5%]">
             <Image
               src="/images/kevimage.png"
               width={620}
@@ -70,15 +70,6 @@ const HeroSection = () => {
           />
         </div>
       </div>
-      {/* <Link href="#Footer" className="cursor-pointer">
-          <Image
-            src="/images/scroll.png"
-            height={150}
-            width={150}
-            alt="scroll"
-            className="animate-slow-spin cursor-pointer"
-          />
-        </Link> */}
     </div>
   );
 };
