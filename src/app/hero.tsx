@@ -14,7 +14,7 @@ const HeroSection = () => {
               DESIGNING THE FUTURE
             </p>
           </div>
-          <div className="absolute left-1/2 transform -translate-x-1/2 z-50 xl:top-[33%] lg:top-[74.5%]">
+          <div className="absolute left-1/2 transform -translate-x-1/2 z-50 xl:top-[18%] lg:top-[74.5%]">
             <Image
               src="/images/kevimage.png"
               width={620}
@@ -23,7 +23,7 @@ const HeroSection = () => {
               className="xl:w-[620px] lg:w-[500px]"
             />
           </div>
-          <div className="absolute xl:h-[70%] lg:h-[100%] rounded-t-full left-1/2 transform -translate-x-1/2 z-10 bg-[#6ab0b5] xl:top-[35%] lg:top-[74.5%] md:w-[50%]">
+          <div className="absolute xl:h-[70%] lg:h-[100%] rounded-t-full left-1/2 transform -translate-x-1/2 z-10 bg-[#6ab0b5] xl:top-[20%] lg:top-[74.5%] md:w-[50%]">
             {/* Blue background */}
           </div>
         </div>
@@ -51,14 +51,14 @@ const HeroSection = () => {
           />
           <Image
             src="/images/photoshop.svg"
-            className="absolute right-[32%] bottom-[30%] z-40"
+            className="absolute right-[20%] bottom-[30%] z-40"
             height={150}
             width={120}
             alt="Photoshop"
           />
           <Image
             src="/images/illustrator.svg"
-            className="absolute right-[15%] top-[20%] z-40"
+            className="absolute right-[15%] top-[30%] z-40"
             height={150}
             width={120}
             alt="Illustrator"
