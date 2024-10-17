@@ -4,7 +4,7 @@ import Head from "next/head";
 const About = () => {
   return (
     <div className="bg-[#C8CDCE] flex items-center text-black py-16 px-12">
-      <div className="basis-[90%]">
+      <div className="basis-[90%] bg-[url('/images/hero-bgsecond.svg')] bg-no-repeat">
         <div className="">
           <Image
             src="/images/right-arrow-black.svg"

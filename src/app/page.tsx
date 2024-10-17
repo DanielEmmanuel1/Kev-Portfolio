@@ -5,10 +5,12 @@ import FeaturedWork from "./feature";
 import CarouselSlider from "./slider";
 import Footer from "./footer";
 import KevFooter from "./AboutKev/KevFooter";
+// pages/index.js
+
 export default function Home() {
   return (
-    <main className="bg-[#1E1E1E]">
-      <div className="px-12 bg-[url('/images/hero-bg.svg')] bg-no-repeat bg-cover bg-center h-screen">
+    <main className="bg-[#1E1E1E] min-h-screen">
+      <div className="min-h-screen bg-[url('/images/hero-bg.svg')] bg-no-repeat bg-cover bg-center">
         <Navbar />
         <HeroSection />
       </div>

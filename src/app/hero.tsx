@@ -1,68 +1,57 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div>
-      <div>
-        <div className="relative">
-          <div className="mt-[-5%]">
-            <p className="xl:text-[28rem] lg:text-[15rem] delirium font-medium tracking-[1rem] text-center z-30">
-              KELVIN DUCHE
-            </p>
-            <p className="border border-white rounded-full text-sm w-fit px-6 py-3 absolute top-[1.5rem] lg:right-[5%] xl:top-[15%] xl:right-[7%] z-20">
-              DESIGNING THE FUTURE
-            </p>
-          </div>
-          <div className="absolute left-1/2 transform -translate-x-1/2 z-50 xl:top-[18%] lg:top-[74.5%]">
-            <Image
-              src="/images/kevimage.png"
-              width={620}
-              height={100}
-              alt="Kelvin Duche"
-              className="xl:w-[620px] lg:w-[500px]"
-            />
-          </div>
-          <div className="absolute xl:h-[70%] lg:h-[100%] rounded-t-full left-1/2 transform -translate-x-1/2 z-10 bg-[#6ab0b5] xl:top-[20%] lg:top-[74.5%] md:w-[50%]">
-            {/* Blue background */}
-          </div>
+    <div className="relative h-[calc(100vh-80px)] overflow-hidden px-8">
+      <div className="absolute inset-0 flex flex-col justify-center items-center">
+        {/* Blue background */}
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10 
+                        rounded-t-full bg-[#6ab0b5] w-1/2 aspect-[4/3]">
         </div>
-        <div className="flex items-end pl-36 py-12 cursor-pointer absolute xl:right-[15%] xl:top-[70%] lg:right-[10%] lg:top-[130%]">
-          <Link href="#Footer">
-            <Image
-              src="/images/scroll.png"
-              height={150}
-              width={150}
-              alt="Scroll"
-              className="animate-slow-spin"
-            />
-          </Link>
+
+        {/* Hero title */}
+        <p className="xl:text-[28rem] lg:text-[15rem] delirium font-medium tracking-[2rem] text-center z-20 mt-[-15%] relative">
+          KELVIN DUCHE
+        </p>
+
+        {/* Tagline */}
+        <div className="absolute top-4 right-16 border border-white rounded-full px-4 py-2 text-sm z-50">
+          DESIGNING THE FUTURE
         </div>
-        <div>
-          {/* Kev Image with the highest z-index */}
+
+        {/* Kelvin image */}
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-30 w-1/2">
+          <Image
+            src="/images/kevimage.png"
+            width={800}
+            height={800}
+            alt="Kelvin Duche"
+            className="w-full h-auto relative"
+          />
         </div>
-        <div>
+
+        {/* Scroll icon */}
+        <div className="absolute bottom-8 right-[10%] z-50">
           <Image
-            src="/images/figma.png"
-            className="absolute top-[20%] left-[10%] z-40"
-            height={150}
-            width={120}
-            alt="Figma"
+            src="/images/scroll.png"
+            height={80}
+            width={150}
+            alt="Scroll"
+            className="animate-slow-spin"
           />
-          <Image
-            src="/images/photoshop.svg"
-            className="absolute right-[20%] bottom-[30%] z-40"
-            height={150}
-            width={120}
-            alt="Photoshop"
-          />
-          <Image
-            src="/images/illustrator.svg"
-            className="absolute right-[15%] top-[30%] z-40"
-            height={150}
-            width={120}
-            alt="Illustrator"
-          />
+        </div>
+
+        {/* Software icons */}
+        <Image src="/images/figma.png" className="absolute top-[10%] left-[10%] z-40 rotate-[-15deg]" width={100} height={60} alt="Figma" />
+        <Image src="/images/photoshop.svg" className="absolute top-[20%] right-[15%] z-40 rotate-[15deg]" width={100} height={60} alt="Photoshop" />
+        <Image src="/images/illustrator.svg" className="absolute bottom-[50%] left-[20%] z-40 rotate-[15deg]" width={100} height={60} alt="Illustrator" />
+
+        {/* Skill tags */}
+        <div className="absolute bottom-40 left-16 flex flex-col gap-2 z-50">
+          <span className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm">Visual Designer</span>
+          <span className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm">Product Designer</span>
+          <span className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm">Brand Designer</span>
+          <span className="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">Illustrator</span>
         </div>
       </div>
     </div>
