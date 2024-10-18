@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const KevFooter = () => {
     return (
-        <footer id="Footer" className="bg-[#ffffff11] rounded-t-full mx-16  px-16 pt-28 pb-10 mt-64">
+        <footer id="Footer" className="bg-[#ffffff11] rounded-t-full mx-24  px-16 pt-28 pb-10 mt-64">
             <div>
                 <p className="text-[200px] delirium font-medium text-center">
                     LET&apos;S CONNECT

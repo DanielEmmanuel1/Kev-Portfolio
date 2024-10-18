@@ -5,8 +5,8 @@ const SecondFeature = () => {
         <>
             <div className="w-full h-full">
                 <div className="flex items-center justify-center"></div>
-                <div className="flex flex-col rounded-3xl max-w-[75rem] mx-auto">
-                    <div className="bg-[url('/images/peerapp.png')] bg-contain bg-no-repeat max-w-[75rem] h-[32rem]"></div>
+                <div className="flex flex-col rounded-[3.1rem] max-w-[75rem] mx-auto hover:shadow-[0_4px_20px_rgba(106,176,181,0.8)] cursor-pointer">
+                    <div className="bg-[url('/images/peerapp.png')] bg-contain bg-no-repeat max-w-[75rem] h-[32rem] rounded-3xl"></div>
                     <div className="flex justify-between max-w-[75rem] bg-[#0f0f0f] px-12 xl:mt-[-20px] lg:mt-[-125px] rounded-b-[3rem]">
                         <div className="flex gap-4 items-center">
                             <p className="delirium text-[50px]">HONUA</p>

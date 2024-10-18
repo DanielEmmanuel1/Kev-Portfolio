@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <>
             <main className="bg-[#1e1e1e]">
-                <div className="px-12">
+                <div className="">
                     <Navbar />
                 </div>
                 <div className="pt-20">

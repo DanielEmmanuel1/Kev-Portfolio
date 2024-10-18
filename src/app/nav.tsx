@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center py-6 px-16">
       <div className="flex items-center gap-2">
-        <h1 className="text-2xl font-bold">DESIGN KING</h1>
+        <h1 className="text-2xl font-bold3">DESIGN KING</h1>
         <Image src="/images/crown.png" width={24} height={24} alt="Crown" />
       </div>
 

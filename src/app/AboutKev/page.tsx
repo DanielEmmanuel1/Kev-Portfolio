@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const AboutKev = () => {
   return (
-    <main className="flex flex-col min-h-screen px-12 bg-[#1e1e1e]">
+    <main className="flex flex-col min-h-screen bg-[#1e1e1e]">
       <Navbar />
 
       {/* Page Content */}
-      <div className="flex-grow">
+      <div className="flex-grow px-12">
         <div className="flex justify-between items-center h-screen">
           {/* Left Side Content */}
           <div className="flex flex-col px-12">
@@ -46,7 +46,7 @@ const AboutKev = () => {
           </div>
           {/* Right Side Content */}
           <div className="w-[65%] leading-loose tracking-wide">
-            <p className="xl:text-[20px] lg:text-[15px] font-light redhat">
+            <p className="leading-[3rem] tracking-wider xl:text-[26px] lg:text-[18px] font-light redhat">
               Welcome to my portfolio! I&apos;m Duche Kelvin, a freelance Visual
               Designer/UI designer with over 5 years of experience in the
               industry. I specialize in crafting captivating visuals for a

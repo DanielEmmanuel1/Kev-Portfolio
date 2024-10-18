@@ -3,7 +3,6 @@ import HeroSection from "./hero";
 import About from "./about";
 import FeaturedWork from "./feature";
 import CarouselSlider from "./slider";
-import Footer from "./footer";
 import KevFooter from "./AboutKev/KevFooter";
 // pages/index.js
 
