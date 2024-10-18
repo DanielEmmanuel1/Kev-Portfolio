@@ -5,7 +5,7 @@ const NewFeature = () => {
         <>
             <div className="w-full h-full">
                 <div className="flex items-center justify-center"></div>
-                <div className="flex flex-col rounded-3xl max-w-[75rem] mx-auto">
+                <div className="flex flex-col rounded-[3.1rem] max-w-[75rem] mx-auto hover:shadow-[0_4px_20px_rgba(106,176,181,0.8)] ">
                     <div className="bg-[url('/images/honua.png')] bg-contain bg-no-repeat max-w-[75rem] h-[32rem]"></div>
                     <div className="flex justify-between max-w-[75rem] bg-[#0f0f0f] px-12 xl:mt-[-20px] lg:mt-[-125px] rounded-b-[3rem]">
                         <div className="flex gap-4 items-center">

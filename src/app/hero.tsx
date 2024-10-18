@@ -1,10 +1,23 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
     <div className="relative h-[calc(100vh-80px)] overflow-hidden px-8">
       <style jsx global>{`
+        @keyframes circular-motion {
+          0% {
+            transform: rotate(0deg) translateX(20px) rotate(0deg);
+          }
+          100% {
+            transform: rotate(0deg) translateX(20px) rotate(360deg);
+          }
+        }
+        .circular-animation {
+          animation: circular-motion 10s linear infinite;
+        }
+
       @keyframes spin {
           0% { transform: rotate(0deg) translateX(10px) rotate(0deg); }
           100% { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
@@ -41,6 +54,7 @@ const HeroSection = () => {
           DESIGNING THE FUTURE
         </div>
 
+
         {/* Kelvin image */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-30 w-1/2">
           <Image
@@ -52,16 +66,19 @@ const HeroSection = () => {
           />
         </div>
 
+
         {/* Scroll icon */}
-        <div className="absolute bottom-8 right-[10%] z-50">
-          <Image
-            src="/images/scroll.png"
-            height={80}
-            width={150}
-            alt="Scroll"
-            className="animate-slow-spin"
-          />
-        </div>
+        <Link href="#Footer">
+          <div className="absolute bottom-8 right-[10%] z-50">
+            <Image
+              src="/images/scroll.png"
+              height={80}
+              width={150}
+              alt="Scroll"
+              className="circular-animation cursor-pointer"
+            />
+          </div>
+        </Link>
 
         {/* Software icons */}
         <Image
@@ -87,14 +104,29 @@ const HeroSection = () => {
         />
 
         {/* Skill tags */}
-        <div className="absolute bottom-40 left-16 flex flex-col gap-2 z-50">
-          <span className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm">Visual Designer</span>
-          <span className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm">Product Designer</span>
-          <span className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm">Brand Designer</span>
-          <span className="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">Illustrator</span>
+        <div className="absolute bottom-0 left-[5%] grid gap-2 z-0 py-6">
+          {/* First row with 3 columns */}
+          <div className="grid grid-cols-3 items-center gap-2">
+            <span className="bg-yellow-400 text-black px-3 py-3 rounded-full text-xl tracking-widest text-center">Visual Designer</span>
+            <Image src="/images/Ellipse11.svg" width={150} height={30} alt="Ellipse" />
+          </div>
+
+          {/* Second row with 2 columns */}
+          <div className="flex gap-3 ml-16">
+            <Image src="/images/Ellipse9.svg" width={30} height={30} alt="Ellipse" />
+            <span className="bg-yellow-400 text-black px-3 py-3 rounded-full text-xl tracking-widest text-center">Product Designer</span>
+          </div>
+
+          {/* Third row with 1 column */}
+          <div className="flex gap-2 ml-[-1%]">
+            <span className="bg-yellow-400 text-black px-3 py-3 rounded-full text-xl tracking-widest text-center">Brand Designer</span>
+            <span className="bg-gray-700 text-white px-3 py-3 rounded-full text-xl tracking-widest text-center">Illustrator</span>
+            <Image src="/images/Ellipse9.svg" width={30} height={30} alt="Ellipse" />
+          </div>
         </div>
-      </div>
-    </div>
+
+      </div >
+    </div >
   );
 };
 
